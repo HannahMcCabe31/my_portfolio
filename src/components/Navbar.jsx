@@ -17,7 +17,7 @@ export default function Navbar() {
             Skills
           </a>
           <a href="#CV" className="mr-5 text-white hover:text-rose-400">
-            CV
+            {/* CV */}
           </a>
         </nav>
         <a
