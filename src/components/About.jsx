@@ -3,7 +3,7 @@ import avatar from "./final avatar-no background.png";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 px-10">
+    <section id="about" className="py-40 px-10">
       {/* Container for flex layout */}
       <div className="container mx-auto flex flex-col md:flex-row md:items-center text-center">
         {/* Left column for text content */}

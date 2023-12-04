@@ -9,7 +9,7 @@ import CV from "./components/CV";
 function App() {
 
     return (
-      <main className="font-sans text-white-100 bg-rose-200 body-font">
+      <main className="font-sans bg-rose-200 body-font">
         <Navbar />
         <About />
         <Projects />

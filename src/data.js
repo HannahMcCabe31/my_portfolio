@@ -1,4 +1,4 @@
-import project1Image from "./asyncavatars-logo.png"
+import project1Image from "./bootcamp_resources_pic.png"
 
 export const projects = [
   {
