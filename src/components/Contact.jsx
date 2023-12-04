@@ -36,22 +36,22 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Oxford,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-rose-200 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+          <div className="bg-rose-300 relative flex flex-col py-6 rounded shadow-md">
+            <div className=" px-6" >
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
           ADDRESS
               </h2>
-              <p className="mt-1">
-                Oxford, UK <br />
+              <p className="mt-1 inline">
+                Oxford, UK < br/>
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+              <h2 className="title-font font-semibold text-white text-xs ">
                 EMAIL
               </h2>
               <a
                 href="mailto:hmccabe.hm@gmail.com"
-                className="text-rose-700 leading-relaxed hover:text-rose-500"
+                className="max-w-100 text-rose-700 leading-relaxed hover:text-rose-500"
               >
           hmccabe.hm@gmail.com
               </a>
