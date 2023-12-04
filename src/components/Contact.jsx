@@ -15,6 +15,13 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", name, email, message }),
+    })
+      .then(() => alert("Message sent!"))
+      .catch((error) => alert(error));
   }
 
   return (
@@ -29,10 +36,10 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Oxford,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          {/* <div className="bg-rose-200 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-rose-200 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs"> */}
-                {/* ADDRESS
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+          ADDRESS
               </h2>
               <p className="mt-1">
                 Oxford, UK <br />
@@ -45,16 +52,16 @@ export default function Contact() {
               <a
                 href="mailto:hmccabe.hm@gmail.com"
                 className="text-rose-700 leading-relaxed hover:text-rose-500"
-              > */}
-                {/* hmccabe.hm@gmail.com
+              >
+          hmccabe.hm@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">+447551647612</p>
+              <p className="leading-relaxed">+447551647612</p> */}
             </div>
-          </div>
-        </div> */}
+          </div> 
+        </div> 
         <form
           name="contact"
           method="post"
@@ -101,7 +108,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-rose-200 rounded focus:ring-2 focus:ring-white text-base outline-none text-rose-800 h-32 text-base outline-none text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-rose-200 rounded focus:ring-2 focus:ring-white text-base outline-none text-rose-800 h-32 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
