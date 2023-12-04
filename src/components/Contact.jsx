@@ -29,10 +29,10 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Oxford,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-rose-200 relative flex flex-wrap py-6 rounded shadow-md">
+          {/* <div className="bg-rose-200 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                ADDRESS
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs"> */}
+                {/* ADDRESS
               </h2>
               <p className="mt-1">
                 Oxford, UK <br />
@@ -45,8 +45,8 @@ export default function Contact() {
               <a
                 href="mailto:hmccabe.hm@gmail.com"
                 className="text-rose-700 leading-relaxed hover:text-rose-500"
-              >
-                hmccabe.hm@gmail.com
+              > */}
+                {/* hmccabe.hm@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
@@ -54,7 +54,7 @@ export default function Contact() {
               <p className="leading-relaxed">+447551647612</p>
             </div>
           </div>
-        </div>
+        </div> */}
         <form
           name="contact"
           method="post"
