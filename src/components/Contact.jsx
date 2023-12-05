@@ -26,8 +26,17 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative bg-rose-800">
-      <div className="container px-5 py-40 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <div className="container px-5 py-20 mx-auto flex flex-col md:flex-row  ">
+        <div className="flex flex-col mx-auto md:mb-0 md:items-start leading-relaxed">
+          <h2 className="relative mb-4 text-white sm:text-4xl text-3xl font-medium title-font">
+            Contact Me
+          </h2>
+          <p className="leading-relaxed mb-5 md:mr-20 text-white">
+            If you have any questions please get in touch, I would love to hear
+            from you!
+          </p>
+        </div>
+        <div className="w-2/3 h-2/3 bg-gray-900 rounded-lg overflow-hidden  p-40 flex items-end justify-start relative mx-auto">
           <iframe
             width="100%"
             height="100%"
@@ -37,12 +46,12 @@ export default function Contact() {
             src="https://www.google.com/maps/embed/v1/place?q=Oxford,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-rose-300 relative flex flex-col py-6 rounded shadow-md">
-            <div className=" px-6" >
+            <div className=" px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-          ADDRESS
+                ADDRESS
               </h2>
               <p className="mt-1 inline">
-                Oxford, UK < br/>
+                Oxford, UK <br />
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -53,31 +62,25 @@ export default function Contact() {
                 href="mailto:hmccabe.hm@gmail.com"
                 className="max-w-100 text-rose-700 leading-relaxed hover:text-rose-500"
               >
-          hmccabe.hm@gmail.com
+                hmccabe.hm@gmail.com
               </a>
               {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
               <p className="leading-relaxed">+447551647612</p> */}
             </div>
-          </div> 
-        </div> 
-        <form
+          </div>
+        </div>
+        {/* {/* <form
           name="contact"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
-        >
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Contact Me
-          </h2>
-          <p className="leading-relaxed mb-5 text-white">
-            If you have any questions please feel free to get in touch, I would
-            love to hear from you!
-          </p>
-          <div className="relative mb-4">
+        > */}
+
+        {/* <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-white">
               Name
             </label>
@@ -118,7 +121,7 @@ export default function Contact() {
           >
             Submit
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );

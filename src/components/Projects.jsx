@@ -4,7 +4,7 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects" className="bg-rose-800 text-white body-font">
-      <div className="container px-5 py-40 mx-auto text-center lg:px-40">
+      <div className="container px-5 py-20 mx-auto text-center lg:px-40">
         <div className="mb-20">
           <h1 className="text-3xl sm:text-4xl font-medium title-font mb-4 text-white">
             Apps I've Built
