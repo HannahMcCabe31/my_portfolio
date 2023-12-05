@@ -10,7 +10,10 @@ export default function Skills() {
             Skills &amp; Technologies
           </h2>
           <p className="mx-auto lg:w-2/4 leading-relaxed text-base lg:w-3/4 text-rose-800">
-            Over the course of the School of Code bootcamp, I have developed the following web development skills through lectures, workshops, independent study and challenging myself to put these skills to the test by developing a variety of different projects. 
+            Since delving into coding, I've developed a strong skill set in web
+            development. This proficiency has been nurtured through engaging
+            lectures, hands-on workshops, self-directed study, and a commitment
+            to challenging myself and pushing my boundaries.
           </p>
         </div>
         <div className="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2 lg:w-4/5">

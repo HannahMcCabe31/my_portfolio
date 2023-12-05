@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-rose-800 sticky top-0 z-10 ">
+    <header className="bg-rose-800 sticky top-0 z-10">
       <div className="container mx-auto flex items-center justify-between p-5">
         <h1 className="title-font font-sans font-medium text-white hover:text-rose-400 items-center">
           <a href="#about" className=" text-xl">

@@ -3,7 +3,7 @@ import avatar from "./final avatar-no background.png";
 
 export default function About() {
   return (
-    <section id="about" className="py-40 px-10">
+    <section id="about" className="lg:py-10 py-20 px-10">
       {/* Container for flex layout */}
       <div className="container mx-auto flex flex-col md:flex-row md:items-center text-center">
         {/* Left column for text content */}
@@ -26,7 +26,7 @@ export default function About() {
             that engage and captivate users.
           </p>
           {/* Button links */}
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-rose-800 border-0 py-2 px-6 focus:outline-none hover:bg-rose-400 rounded text-lg"
@@ -43,10 +43,10 @@ export default function About() {
         </div>
 
         {/* Right column for the image */}
-        <div className="md:w-1/2 w-full md:w-2/3 lg:max-w-lg lg:w-full mx-auto md:mx-0">
+        <div className="md:w-1/4 w-full md:w-2/3 max-w-lg mx-auto md:mx-0">
           {/* Image */}
           <img
-            className="object-cover object-center rounded md:float-right md:ml-4"
+            className="object-cover object-center rounded md:float-right "
             alt="avatar"
             src={avatar}
           />
