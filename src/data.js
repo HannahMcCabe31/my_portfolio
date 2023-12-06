@@ -74,6 +74,8 @@ export const skills = [
   "Next.js",
   "Node",
   "SQL",
+  "MaterialUI",
+  "TailwindCSS",
   "Express",
   "PosygreSQL",
   "Supertest",
