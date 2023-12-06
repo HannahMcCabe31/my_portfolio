@@ -13,7 +13,7 @@ export default function Projects() {
             Throughout my coding journey, I've discovered the incredible
             satisfaction and skill enhancement that comes from challenging
             myself to create a variety of projects using newly acquired skills.
-            Explore the catalogue of below for more details about each of my
+            Explore the catalogue below for more details about each of my
             projects so far!
           </p>
         </div>

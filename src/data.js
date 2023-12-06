@@ -34,7 +34,7 @@ export const projects = [
     title: "Classroom Behaviour Management App",
     subtitle: "React, Javascript, HTML, CSS, Figma",
     description:
-      "This project encapsulates my first venture into React, where my team and I we delved into JavaScript, HTML, and CSS as a team, using Figma to design our app. The Classroom Behavior App emerged from this exploration, injecting a playful touch into classroom management. When students exhibit positive behavior, their names appear as eggs on the screen, creating a unique reward system. I plan to continue developing this app, introducing a counter for additional commendable actions that gradually cracks open the eggs. Stay tuned for more exciting updates!",
+      "This project demonstrates my first venture into React, when my team and I decided to create a new tool for classroom behavior management - the Eggcelent Achievements app. When students exhibit positive behavior, their names appear as eggs on the screen, creating a unique reward system. I plan to continue developing this app, introducing a counter for additional positive actions or behaviour throughout a lesson or a day that gradually cracks open the eggs. Stay tuned for more exciting updates!",
     image: project4Image,
     link: "https://github.com/HannahMcCabe31/eggcellent-achievements-react-app",
   },
@@ -42,7 +42,7 @@ export const projects = [
     title: "Hangman Console Game using Typescript",
     subtitle: "Typescript",
     description:
-      "This project began in week 12 of the School of Code bootcamp when my team and I began exploring typescript and ventured into the realm of console-based gaming. This particular project involved crafting a Hangman game, using ASCII art to visualize the progression in the console. The interactive experience unfolds with each prompt, urging players to guess a new letter. Correct guesses reveal the positions of previously chosen letters, adding an engaging layer to the gameplay. While there's still ample room for further refinements in terms of both code and user interaction, I am excited to delve deeper into TypeScript, steering the evolution of this game and exploring additional features to make it more entertaining.",
+      "This project began in week 12 of the School of Code bootcamp when my team and I began exploring typescript and the realm of console-based gaming. This particular project involved crafting a Hangman game, using ASCII art to visualize the progression in the console. The interactive game plays out through prompts, each urging the player to guess a new letter. Correct guesses reveal the positions of previously chosen letters, adding an engaging layer to the gameplay. While there's still ample room for further refinements in terms of both code and user interaction, I am excited to delve deeper into TypeScript, exploring additional features to make it more entertaining.",
     image: project6Image,
     link: "https://github.com/HannahMcCabe31/Currency_Converter",
   },
@@ -50,7 +50,7 @@ export const projects = [
     title: "Currency Convertor App",
     subtitle: "React, Next.js, CSS, Javascript, HTML, Figma",
     description:
-      "The creation of this currency conversion app began during week 11 of my School of Code journey when my team and I began exploring Next.js. Designed to seamlessly convert currencies, the app is a work in progress, with ongoing efforts focused on refining both its styling and functionality. I'm excited about delving deeper into Next.js to continue development of this app!",
+      "The creation of this currency conversion app began during week 11 of my School of Code journey when my team and I began exploring Next.js. Designed to seamlessly convert currencies, the app is a work in progress, with ongoing efforts focused on refining both its styling and functionality. I'm looking forward to delving deeper into Next.js to continue the development of this app!",
     image: project5Image,
     link: "https://github.com/HannahMcCabe31/Currency_Converter",
   },
