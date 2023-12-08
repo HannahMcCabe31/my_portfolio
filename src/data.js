@@ -77,7 +77,7 @@ export const skills = [
   "MaterialUI",
   "TailwindCSS",
   "Express",
-  "PosygreSQL",
+  "PostgreSQL",
   "Supertest",
   "Playwright",
   "REST API",

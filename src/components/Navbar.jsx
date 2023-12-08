@@ -22,7 +22,7 @@ export default function Navbar() {
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-rose-300 border-0 py-1 px-3 focus:outline-none hover:bg-rose-400 hover:text-white rounded text-base text-rose-800 md:ml-4"
+          className="inline-flex items-center bg-rose-300 border-0 py-1 px-3 focus:outline-none hover:bg-rose-400 hover:text-white rounded text-base text-rose-800 md:ml-4 text-center"
         >
           Contact Me
         </a>
